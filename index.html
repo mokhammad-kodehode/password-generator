@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script defer src="script.js"></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div class="section">
+    <h1 >Generate a <span class = "pass" >random password</span></h1>
+    <p>Never use an insecure password again.</p>
+    <div class="maxl">
+        <input  id="inputum" class="inp"
+        type="number" min="0" max="16" value="4"
+         placeholder="Max letter">
+       <button class="btn" id="generate">Generate passwords</button>
+    </div>
+    <div class="line"></div>
+    <div class="results">
+        <div class="passout" ></div>
+        <div class="passout" ></div>
+        <div class="passout" ></div>
+        <div class="passout" ></div>
+        <div class="passout" ></div>
+        <div class="passout" ></div>
+    </div>
+    <div class="line"></div>
+    <div class="passsettings">
+        <div class="check">
+            <input type="checkbox" class="check" id="checksym">
+            <label for="checksym"> Symbol </label>
+        </div>
+        <div class="check">
+            <input type="checkbox" class="check" id="checknum">
+            <label for=""> Number </label>
+        </div>
+        <div class="check">
+            <input type="checkbox" class="check" id="checkcap">
+            <label for=""> Capital letter </label>
+        </div>
+        <div class="check">
+            <input type="checkbox" class="check" id="checkonesym">
+            <label for=""> Add ! </label>
+        </div> 
+    </div>
+    <div class="copy" id="copySuccess">Copy success</div>
+</div>
+    
+</body>
+</html>

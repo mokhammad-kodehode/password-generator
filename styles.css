@@ -1,0 +1,107 @@
+body {
+    margin:0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.section {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 100px auto;
+    width: 550px;
+    height: 650px;
+    background-color: #1F2937 ;
+    align-items: center;
+    gap: 20px;
+}
+
+.line {
+    width: 450px;
+    height: 1px;
+    background-color: #505a69;
+    margin-top: 10px;
+}
+
+h1 {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    font-weight: 800;
+    font-size: 40px;
+}
+
+.pass {
+    color: #4ADF86
+;
+}
+
+p{
+    color: #D5D4D8;
+    font-size: 20px;
+}
+
+.results{
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 10px;
+}
+
+
+
+.passout {
+    color: white;
+   justify-content: center;
+   display: flex;
+   align-items: center;
+    width: 210px;
+    height: 40px;
+    background-color: #505a69;
+    border-radius: 5px;
+}
+
+.btn {
+    width: 191px;
+    height: 42px;
+    background: #10B981;
+    border-radius: 6px;
+    color: #fdfcff;
+}
+
+.inp {
+    width: 80px;
+    height: 32px;
+    border-radius: 6px;
+    text-align: center;
+}
+
+.checksym {
+    width: 20px;
+    height: 20px;
+}
+
+.check {
+    display: flex;
+    color: #fdfcff;
+    align-items: center;
+    gap: 5px;
+}
+
+.passsettings {
+    display: flex;
+    gap: 30px;
+}
+
+
+
+.copy {
+    bottom: 30%;
+    display: none;
+    color: white;
+    position: absolute;
+    width: 120px;
+    height: 30px;
+    background: #10B981;
+    border-radius: 6px;
+    text-align: center;
+}
